@@ -1,0 +1,63 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081B2E"/>
+      <stop offset="1" stop-color="#0F2A4A"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1FE3A5"/>
+      <stop offset="1" stop-color="#4AC5FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#76FFB7"/>
+      <stop offset="1" stop-color="#59D7FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.18">
+    <path d="M40 280H1160" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M40 220H1160" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M40 160H1160" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M40 100H1160" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M160 40V320" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M320 40V320" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M480 40V320" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M640 40V320" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M800 40V320" stroke="#8EC5FF" stroke-width="2"/>
+    <path d="M960 40V320" stroke="#8EC5FF" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(80 62)">
+    <rect x="0" y="0" width="430" height="220" rx="28" fill="#0A1F33" stroke="url(#chip)" stroke-width="5"/>
+    <rect x="42" y="34" width="346" height="152" rx="18" fill="#101F35" stroke="#1FE3A5" stroke-opacity="0.5"/>
+
+    <g opacity="0.9">
+      <circle cx="92" cy="90" r="18" fill="#35D2A3"/>
+      <circle cx="156" cy="90" r="18" fill="#35D2A3"/>
+      <circle cx="220" cy="90" r="18" fill="#35D2A3"/>
+      <circle cx="284" cy="90" r="18" fill="#35D2A3"/>
+      <circle cx="348" cy="90" r="18" fill="#35D2A3"/>
+
+      <circle cx="92" cy="150" r="18" fill="#59D7FF"/>
+      <circle cx="156" cy="150" r="18" fill="#59D7FF"/>
+      <circle cx="220" cy="150" r="18" fill="#59D7FF"/>
+      <circle cx="284" cy="150" r="18" fill="#59D7FF"/>
+      <circle cx="348" cy="150" r="18" fill="#59D7FF"/>
+    </g>
+
+    <g stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.9">
+      <path d="M68 56H392"/>
+      <path d="M68 182H392"/>
+      <path d="M80 40V198"/>
+      <path d="M360 40V198"/>
+    </g>
+  </g>
+
+  <g transform="translate(560 80)">
+    <text x="0" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="110" font-weight="700" fill="#EAF8FF">CUDA</text>
+    <text x="4" y="174" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="600" fill="#75E7C9" letter-spacing="6">PARALLEL COMPUTING</text>
+    <rect x="0" y="206" width="220" height="10" rx="5" fill="url(#accent)"/>
+  </g>
+</svg>
